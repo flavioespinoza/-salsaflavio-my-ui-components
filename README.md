@@ -52,3 +52,12 @@ And include this in your global CSS:
 ## 📜 License
 
 MIT
+
+## 📦 Peer Dependencies
+
+This package requires the following peer dependencies to be installed in your app:
+
+```bash
+yarn add recharts
+```
+
