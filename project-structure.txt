@@ -1,0 +1,13 @@
+.
+├── index.ts
+├── package-lock.json
+├── package.json
+├── project-structure.txt
+├── src
+│   └── components
+│       └── ui
+│           ├── button.tsx
+│           └── icons.tsx
+└── tsconfig.json
+
+4 directories, 7 files
