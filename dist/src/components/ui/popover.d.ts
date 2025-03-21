@@ -1,8 +1,5 @@
 import React from 'react';
-interface PopoverProps {
-    label: string;
+export declare const Popover: ({ trigger, children }: {
+    trigger: React.ReactNode;
     children: React.ReactNode;
-    show?: boolean;
-}
-declare const Popover: React.FC<PopoverProps>;
-export default Popover;
+}) => React.JSX.Element;

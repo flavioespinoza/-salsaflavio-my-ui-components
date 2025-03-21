@@ -1,14 +1,6 @@
 import React from 'react';
-export type CardData = {
+export interface CardSectionProps {
     title: string;
-    description: string;
-    content: string;
-    footer: React.ReactNode;
-};
-interface CardSectionProps {
-    cards: CardData[];
-    cardType: 'Card' | 'CardAchievement';
-    className?: string;
+    children: React.ReactNode;
 }
-declare const CardSection: React.FC<CardSectionProps>;
-export default CardSection;
+export declare const CardSection: React.FC<CardSectionProps>;
