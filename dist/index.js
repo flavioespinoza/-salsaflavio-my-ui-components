@@ -1,2 +1,2 @@
-export * from './components/ui/button'
-export * from './components/ui/icons'
+export * from './src/components/ui/button';
+export * from './src/components/ui/icons';
